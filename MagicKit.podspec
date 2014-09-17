@@ -133,9 +133,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  # s.xcconfig = {
-    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) HAVE_CONFIG_H=1"
-  }
+  # s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) HAVE_CONFIG_H=1" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
